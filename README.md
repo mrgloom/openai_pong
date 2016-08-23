@@ -6,9 +6,11 @@ Volodymyr Mnih, Koray Kavukcuoglu, David Silver, Alex Graves, Ioannis Antonoglou
 
 - [theano](http://deeplearning.net/software/theano/)
 - [lasagne](http://lasagne.readthedocs.io/en/latest/)
-- [opencv](http://opencv.org/), used only for screen preprocessing.
+- [opencv](http://opencv.org/), used for screen preprocessing only.
 
 ## Train
+
+Comes better with GPU. You have to train it 1k-2k of episodes (around 1.5kk-2.5kk of iterations) to get some reasonable behavior of the agent.
 
 ```bash
 python train.py 
